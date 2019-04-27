@@ -1,3 +1,3 @@
-Java Version => 12.0.1
-JavaEE => 8
-Tomcat => 9
+|   Java   | Java EE | Tomcat |
+| ------   | ------  | ------ |
+| 12.0.0.1 |    8    |  9     |

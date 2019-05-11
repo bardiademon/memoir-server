@@ -1,7 +1,7 @@
 package Model.Get;
 
 import Other.InfoProject.Url;
-import Page.Response;
+import Page.Req;
 import bardiademon.Interface.IsModel;
 import bardiademon.Interface.bardiademon;
 
@@ -20,13 +20,17 @@ public class GetPictureProfile
     @bardiademon
     public GetPictureProfile (String NamePicture)
     {
-        this.namePicture = NamePicture;
-        getPic ();
+        if (NamePicture != null && !NamePicture.isEmpty ())
+        {
+            this.namePicture = NamePicture;
+            getPic ();
+        }
+        else linkPic = IF_NO_PIC;
     }
 
     private void getPic ()
     {
-        File file = new File (Response.GetServletContext ().getRealPath (PATH_DIR_PIC_PROFILE_GYM));
+        File file = new File (Req.GetRequest ().getServletContext ().getRealPath (PATH_DIR_PIC_PROFILE_GYM));
         if (file.exists ())
         {
             File pic = new File (file.getPath () + "/" + namePicture);

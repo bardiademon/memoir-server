@@ -1,27 +1,28 @@
 package Controller.CGet;
 
+import Controller.Request.RequestUser.KJR.KJR_GetComment;
 import Interface.Controller;
 import Interface.ResultModel;
-import Model.CheckId;
-import Model.Database.InfoDatabase;
 import Model.Get.MGetComment;
+import Model.IS.IsLinkMemoir;
+import Other.Str;
 import Page.Response;
 import bardiademon.Controller.CJSON;
 import Controller.CController;
-import Controller.Request;
 import bardiademon.Other.Log;
 
 public class CGetComment implements Controller
 {
-    private int idMemoir;
+    private String linkMemoir;
 
     private MGetComment mGetComment;
+    private IsLinkMemoir isLinkMemoir;
 
     public CGetComment (String JsonRequest)
     {
-        if (CController.User.Ready.IsOkJsonJustId.IsOk (JsonRequest , Request.RequestUser.KJR.KJR_GetComment.ID_MEMOIR))
+        if (CController.User.IsOkJson (JsonRequest , GetCJsonValue ()))
         {
-            this.idMemoir = CController.User.Ready.IsOkJsonJustId.GetId ();
+            linkMemoir = CController.User.GetCJson ().getVString (KJR_GetComment.LINK_MEMOIR);
             RunClass ();
         }
     }
@@ -29,8 +30,8 @@ public class CGetComment implements Controller
     @Override
     public void RunClass ()
     {
-        CheckId checkId = new CheckId (InfoDatabase.TMemoirList.NT , InfoDatabase.TMemoirList.ID , idMemoir);
-        if (checkId.isFound ())
+        isLinkMemoir = new IsLinkMemoir (linkMemoir);
+        if (isLinkMemoir.isFound ())
         {
             SendToModel ();
             GetResultFromModel ();
@@ -40,13 +41,17 @@ public class CGetComment implements Controller
     @Override
     public CJSON.Value GetCJsonValue ()
     {
-        return null;
+        CJSON.Value value = new CJSON.Value ();
+        value.putLen (KJR_GetComment.LEN);
+        value.putKeyValue (Str.ToArray (Str.ToStrArray (KJR_GetComment.LINK_MEMOIR) , Str.ToStrArray (CJSON.VD.IS_STRING)));
+        return value;
     }
 
     @Override
     public void SendToModel ()
     {
-        mGetComment = new MGetComment (idMemoir);
+        assert isLinkMemoir != null;
+        mGetComment = new MGetComment (isLinkMemoir.getIdMemoir ());
     }
 
     @Override
@@ -54,7 +59,7 @@ public class CGetComment implements Controller
     {
         if (mGetComment.IsThereAResult ())
         {
-            Log.NL (Response.SC_OK , ResultModel.PublicResult.ForLog.SHOW_RESULT_TO_CLIENT , Thread.currentThread ().getStackTrace () , mGetComment.Result ().toString ());
+            Log.NL (Response.SC_OK , mGetComment.Result () , Thread.currentThread ().getStackTrace () , ResultModel.PublicResult.ForLog.SHOW_RESULT_TO_CLIENT);
             Controller.SetResult (mGetComment.Result () , Response.SC_OK);
         }
     }

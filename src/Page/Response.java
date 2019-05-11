@@ -2,7 +2,6 @@ package Page;
 
 import bardiademon.Interface.bardiademon;
 
-import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -12,7 +11,6 @@ public abstract class Response implements HttpServletResponse
 {
     private static HttpServletResponse Response;
 
-    private static ServletContext servletContext;
 
     public static void SetStatus (int Status)
     {
@@ -41,18 +39,6 @@ public abstract class Response implements HttpServletResponse
     public static HttpServletResponse GetResponse ()
     {
         return Response;
-    }
-
-    @bardiademon
-    public static void SetServletContext (ServletContext servletContext)
-    {
-        Page.Response.servletContext = servletContext;
-    }
-
-    @bardiademon
-    public static ServletContext GetServletContext ()
-    {
-        return servletContext;
     }
 
     @bardiademon

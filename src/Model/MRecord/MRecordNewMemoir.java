@@ -23,14 +23,15 @@ public class MRecordNewMemoir implements Model
 {
     private boolean isThereAResult;
     private Object result;
-    private String name, subject, link, date, text;
+    private String name, link, date, text;
+    private int subject;
     private boolean open;
 
     private Connection connection;
     private Statement statement;
 
     @bardiademon
-    public MRecordNewMemoir (String Name , String Subject , String Link , String Date , String Text , boolean Open)
+    public MRecordNewMemoir (String Name , int Subject , String Link , String Date , String Text , boolean Open)
     {
         if (Request.RequestUser.IsLogin ())
         {
@@ -90,7 +91,7 @@ public class MRecordNewMemoir implements Model
     {
         return String.format ("INSERT INTO `%s`" +
                         "(`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`,`%s`) " +
-                        " VALUES (%d,'%s','%s','%s',%b,'%s',%d,'%d','%s','%s','%s',%d,%d,%d);" ,
+                        " VALUES (%d,'%s',%d,'%s',%b,'%s',%d,'%d','%s','%s','%s',%d,%d,%d);" ,
                 InfoDatabase.TMemoirList.NT ,
 
                 InfoDatabase.TMemoirList.ID_USER ,
@@ -113,7 +114,6 @@ public class MRecordNewMemoir implements Model
                 0 /* Visit */ , 0 /* Visit User */ , text , GetTimeStamp.get () /* Time Record */ , "0" /* Time Last Edit */ , 0 /* Confirmation */ ,
                 0 /* Number Of Like */ , 0 /* Number Of Comment */
         );
-
     }
 
     @bardiademon

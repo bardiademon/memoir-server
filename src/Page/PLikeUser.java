@@ -15,7 +15,6 @@ import bardiademon.Interface.bardiademon;
 @WebServlet (urlPatterns = "/LikeUser", name = "update_like")
 public class PLikeUser extends HttpServlet implements Page
 {
-
     private static final int PAGE_CODE = 7;
 
     @bardiademon

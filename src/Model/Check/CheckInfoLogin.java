@@ -104,11 +104,10 @@ public class CheckInfoLogin implements Model
         select.putSelect (InfoDatabase.TAccount.ID);
         select.putWhere
                 (
-                        Str.ToArray (InfoDatabase.TAccount.USERNAME , username , "and") ,
-                        Str.ToArray (InfoDatabase.TAccount.PASSWORD , password , "and") ,
+                        Str.ToArray (InfoDatabase.TAccount.USERNAME , username , "AND") ,
+                        Str.ToArray (InfoDatabase.TAccount.PASSWORD , password , "AND") ,
                         Str.ToArray (InfoDatabase.TAccount.SERIAL , serial , null)
                 );
-
         return select.apply ();
     }
 

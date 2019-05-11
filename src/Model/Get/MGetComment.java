@@ -1,12 +1,15 @@
 package Model.Get;
 
-import org.json.JSONArray;
 import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import Controller.Request;
 import Interface.ResultModel;
@@ -16,7 +19,9 @@ import Model.Database.InfoDatabase;
 import Other.MakeJson;
 import Other.Useful.UsefulLog;
 import bardiademon.Interface.Model;
+import bardiademon.Interface.bardiademon;
 
+@bardiademon
 public class MGetComment implements Model
 {
 
@@ -29,6 +34,12 @@ public class MGetComment implements Model
     private Object result;
     private boolean isThereAResult;
 
+    private JSONObject jsonInfoUser;
+    private List <Integer> ids;
+
+    private int lenGet;
+
+    @bardiademon
     public MGetComment (int IdMemoir)
     {
         if (Request.RequestUser.IsLogin ())
@@ -38,6 +49,7 @@ public class MGetComment implements Model
         }
     }
 
+    @bardiademon
     @Override
     public void RunClass ()
     {
@@ -61,25 +73,27 @@ public class MGetComment implements Model
         }
     }
 
+    @bardiademon
     @Override
     public boolean GetConnection () throws SQLException
     {
         return (HandlerDb.CheckConnection ((connection = HandlerDb.GetConnection ())));
     }
 
+    @bardiademon
     @Override
     public void CommunicationWithTheDatabase () throws SQLException
     {
         statement = connection.createStatement ();
         resultSet = statement.executeQuery (MakeQuery ());
-        if (HandlerDb.GetCountSelectedRow (resultSet) > 0 && resultSet.first ())
+        lenGet = HandlerDb.GetCountSelectedRow (resultSet);
+        if (lenGet > 0 && resultSet.first ())
         {
-            JSONArray allInfo = new JSONArray ();
+            JSONObject allInfo = new JSONObject ();
             MakeJson makeJson;
             String comment, time;
             int idUser, idComment;
-            String username, picUser;
-            ResultSet resultSetGetUsername;
+            int counter = 0;
             do
             {
                 makeJson = new MakeJson ();
@@ -89,22 +103,15 @@ public class MGetComment implements Model
                 comment = resultSet.getString (InfoDatabase.TComment.TXT_COMMENT);
                 time = resultSet.getString (InfoDatabase.TComment.TIME);
 
-                resultSetGetUsername = statement.executeQuery (makeQuery2 (idUser));
-                username = resultSetGetUsername.getString (InfoDatabase.TAccount.USERNAME);
-                picUser = resultSetGetUsername.getString (InfoDatabase.TAccount.NAME_PIC);
-                resultSetGetUsername.close ();
-
-                picUser = new GetPictureProfile (picUser).getLinkPic ();
-
+                makeJson.put (KJRGetComment.ID_USER , idUser);
                 makeJson.put (KJRGetComment.ID , idComment);
                 makeJson.put (KJRGetComment.TXT_COMMENT , comment);
                 makeJson.put (KJRGetComment.TIME , time);
-                makeJson.put (KJRGetComment.USERNAME , username);
-                makeJson.put (KJRGetComment.PIC , picUser);
+                getInfoUser (idUser);
 
                 try
                 {
-                    allInfo.put (makeJson.getJsonString ());
+                    allInfo.put (String.valueOf (counter++) , makeJson.apply ());
                 }
                 catch (JSONException e)
                 {
@@ -114,29 +121,70 @@ public class MGetComment implements Model
                 }
             }
             while (resultSet.next ());
-            SetResult (allInfo.toString ());
+            allInfo.put (KJRGetComment.JSON_INFO_USER , jsonInfoUser);
+            SetResult (allInfo);
             System.gc ();
         }
         else SetResult (ResultModel.PublicResult.NOT_FOUND);
     }
 
+
+    @bardiademon
+    private void getInfoUser (int idUser) throws SQLException
+    {
+        Statement statementGetUsername;
+        ResultSet resultSetGetUsername;
+        if (jsonInfoUser == null) jsonInfoUser = new JSONObject ();
+        if (ids == null) ids = new ArrayList <> ();
+
+        Object[] arrId = ids.toArray ();
+        Arrays.sort (arrId);
+        int i = Arrays.binarySearch (arrId , idUser);
+        if (!(i >= 0) || !(i <= ids.size ()))
+        {
+            MakeJson makeJson = new MakeJson ();
+            ids.add (idUser);
+            statementGetUsername = connection.createStatement ();
+            resultSetGetUsername = statementGetUsername.executeQuery (makeQuery2 (idUser));
+            String username, picUser;
+            if (resultSetGetUsername.first ())
+            {
+                username = resultSetGetUsername.getString (InfoDatabase.TAccount.USERNAME);
+                picUser = resultSetGetUsername.getString (InfoDatabase.TAccount.NAME_PIC);
+
+                picUser = new GetPictureProfile (picUser).getLinkPic ();
+
+                makeJson.put (KJRGetComment.USERNAME , username);
+                makeJson.put (KJRGetComment.PIC , picUser);
+
+                jsonInfoUser.put (String.valueOf (idUser) , makeJson.apply ());
+            }
+            resultSetGetUsername.close ();
+            statementGetUsername.close ();
+        }
+    }
+
+    @bardiademon
     @Override
     public void CloseConnectionDb ()
     {
         HandlerDb.CloseConnection (connection , statement , resultSet);
     }
 
+    @bardiademon
     private String makeQuery2 (int idUser)
     {
         return String.format ("SELECT `%s`,`%s` FROM `%s` WHERE `%s`=%d" , InfoDatabase.TAccount.USERNAME , InfoDatabase.TAccount.NAME_PIC , InfoDatabase.TAccount.NT , InfoDatabase.TComment.ID , idUser);
     }
 
+    @bardiademon
     @Override
     public String MakeQuery ()
     {
         return String.format ("SELECT * FROM `%s` WHERE `%s`=%d" , InfoDatabase.TComment.NT , InfoDatabase.TComment.ID_MEMOIR , idMemoir);
     }
 
+    @bardiademon
     @Override
     public void SetResult (Object Result)
     {
@@ -144,6 +192,7 @@ public class MGetComment implements Model
         isThereAResult = true;
     }
 
+    @bardiademon
     @Override
     public boolean IsThereAResult ()
     {
@@ -154,5 +203,17 @@ public class MGetComment implements Model
     public Object Result ()
     {
         return result;
+    }
+
+    @bardiademon
+    public boolean isFound ()
+    {
+        return (isThereAResult && !(Result ().equals (ResultModel.PublicResult.NOT_FOUND)));
+    }
+
+    @bardiademon
+    public int getLenGet ()
+    {
+        return lenGet;
     }
 }

@@ -19,7 +19,6 @@ import javax.servlet.http.HttpServletResponse;
 @IsController
 public class CheckInfoLogin implements Controller
 {
-
     private JSONObject jsonRequest;
     private Model.Check.CheckInfoLogin checkInfoLogin;
 

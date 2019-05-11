@@ -28,11 +28,13 @@ public class CheckSerialNumber implements Model
     private boolean found;
     private boolean justCheck;
 
+    @bardiademon
     public CheckSerialNumber (String Serial)
     {
         this (Serial , false);
     }
 
+    @bardiademon
     public CheckSerialNumber (String Serial , boolean JustCheck)
     {
         this.serial = Serial;
@@ -40,6 +42,7 @@ public class CheckSerialNumber implements Model
         RunClass ();
     }
 
+    @bardiademon
     @Override
     public void RunClass ()
     {
@@ -58,6 +61,7 @@ public class CheckSerialNumber implements Model
         }
     }
 
+    @bardiademon
     @Override
     public boolean GetConnection () throws SQLException
     {
@@ -65,7 +69,7 @@ public class CheckSerialNumber implements Model
         return (connection != null && !connection.isClosed ());
     }
 
-
+    @bardiademon
     @Override
     public void CommunicationWithTheDatabase () throws SQLException
     {
@@ -96,11 +100,13 @@ public class CheckSerialNumber implements Model
         HandlerDb.CloseConnection (connection , statement , infoGet);
     }
 
+    @bardiademon
     private String getPic (String namePic)
     {
         return new GetPictureProfile (namePic).getLinkPic ();
     }
 
+    @bardiademon
     @Override
     public String MakeQuery ()
     {
@@ -115,6 +121,7 @@ public class CheckSerialNumber implements Model
         );
     }
 
+    @bardiademon
     @Override
     public void SetResult (Object Result)
     {
@@ -122,18 +129,21 @@ public class CheckSerialNumber implements Model
         result = Result;
     }
 
+    @bardiademon
     @Override
     public boolean IsThereAResult ()
     {
         return isThereAResult;
     }
 
+    @bardiademon
     @Override
     public Object Result ()
     {
         return result;
     }
 
+    @bardiademon
     public boolean isFound ()
     {
         return found;

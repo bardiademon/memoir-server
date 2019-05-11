@@ -1,7 +1,5 @@
 package Model.Get;
 
-import org.json.JSONException;
-
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -94,8 +92,10 @@ public class MGetMemoir implements Model
             MakeJson makeJson = new MakeJson ();
             try
             {
+                String subject = new GetSubject (resultSet.getInt (TMemoirList.SUBJECT)).getName ();
+                if (subject == null) throw new Exception ();
                 makeJson.putUtf8 (KJRGetMemoir.NAME , Str.DeCoder (resultSet.getString (TMemoirList.NAME)));
-                makeJson.putUtf8 (KJRGetMemoir.SUBJECT , Str.DeCoder (resultSet.getString (TMemoirList.SUBJECT)));
+                makeJson.putUtf8 (KJRGetMemoir.SUBJECT , subject);
                 makeJson.putUtf8 (KJRGetMemoir.TEXT , Str.DeCoder (resultSet.getString (TMemoirList.TEXT)));
                 makeJson.put (KJRGetMemoir.DATE , resultSet.getString (TMemoirList.DATE));
                 makeJson.put (KJRGetMemoir.TIME_RECORD , resultSet.getString (TMemoirList.TIME_RECORD));
@@ -110,7 +110,7 @@ public class MGetMemoir implements Model
                 SetResult (makeJson.getJsonString ());
                 return;
             }
-            catch (JSONException ignored)
+            catch (Exception ignored)
             {
             }
         }

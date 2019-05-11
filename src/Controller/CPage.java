@@ -16,17 +16,12 @@ public abstract class CPage
     @bardiademon
     public static abstract class User
     {
-        private static HttpServletRequest request;
-        private static HttpServletResponse response;
-        private static int pageCode;
 
         @bardiademon
-        public static boolean IsOkRequest (HttpServletRequest Request, HttpServletResponse Response, int PageCode)
+        public static boolean IsOkRequest (HttpServletRequest Request , HttpServletResponse Response , int PageCode)
         {
-            User.request = Request;
-            User.response = Response;
-            User.pageCode = PageCode;
-            SetReqAndRes ();
+            SetReqAndRes (Request , Response , PageCode);
+            Page.Response.GetWriter ().println (Req.GetRequest ().getParameter ("_REQUEST_"));
             if (CheckRequest ()) return true;
             else
             {
@@ -38,11 +33,11 @@ public abstract class CPage
         @bardiademon
         private static boolean CheckRequest ()
         {
-            return (Request.RequestUser.Checking (request, pageCode));
+            return (Request.RequestUser.Checking ());
         }
 
         @bardiademon
-        private static void SetReqAndRes ()
+        private static void SetReqAndRes (HttpServletRequest request , HttpServletResponse response , int pageCode)
         {
             Log.SetPageCode (pageCode);
             Response.SetResponse (response);
@@ -53,7 +48,7 @@ public abstract class CPage
         @bardiademon
         private static void Error ()
         {
-            Log.NL (Response.SC_BAD_REQUEST, ResultModel.PublicResult.PUBLIC_ERROR_REQUEST, Thread.currentThread ().getStackTrace (), "");
+            Log.NL (Response.SC_BAD_REQUEST , ResultModel.PublicResult.PUBLIC_ERROR_REQUEST , Thread.currentThread ().getStackTrace () , "");
             Response.GetResponse ().setStatus (Response.SC_BAD_REQUEST);
         }
 

@@ -1,5 +1,6 @@
 package Other;
 
+import Page.Req;
 import Page.Response;
 
 import java.io.File;
@@ -20,7 +21,7 @@ public class GetFile
 
     private void get ()
     {
-        File file = new File (Response.GetServletContext ().getRealPath (PATH_FILE));
+        File file = new File (Req.GetRequest ().getServletContext ().getRealPath (PATH_FILE));
         if (file.exists ()) this.file = new File (file.getPath () + File.separator + nameFile);
         else
         {

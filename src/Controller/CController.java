@@ -23,11 +23,13 @@ public abstract class CController
     {
         private static JSONObject JsonRequest;
 
+        @bardiademon
         public static boolean IsOkJson (String JsonRequest , CJSON.Value Value)
         {
             return (IsOkJson (JsonRequest , Value , true));
         }
 
+        @bardiademon
         public static boolean IsOkJson (String JsonRequest , CJSON.Value Value , boolean CheckLogin)
         {
             if (!CheckLogin || Request.RequestUser.IsLogin ())
@@ -54,6 +56,7 @@ public abstract class CController
 
         private static CJSON cjson;
 
+        @bardiademon
         private static boolean CheckRequest (CJSON.Value Value)
         {
             if ((cjson = new CJSON (JsonRequest , Value , true)).isOk ()) return true;
@@ -70,13 +73,14 @@ public abstract class CController
             return cjson;
         }
 
+        @bardiademon
         public static JSONObject GetJsonRequest ()
         {
             System.gc ();
             return JsonRequest;
         }
 
-
+        @bardiademon
         public static abstract class Ready
         {
             public static class IsOkJsonJustId

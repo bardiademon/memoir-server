@@ -5,10 +5,12 @@ import Other.InfoProject.Address;
 import Other.MakeJson;
 import Page.Req;
 import bardiademon.Interface.bardiademon;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import javax.servlet.http.HttpServletRequest;
+
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
@@ -72,31 +74,48 @@ public class Log
 
     private void set ()
     {
-        String jsonInfo = makeJson ();
-
-        File file;
-        if (jsonInfo != null && (file = new File (Address.GetPathLog ())).exists ())
+        if (checkFile ())
         {
-            file = new File (file.getPath () + File.separator + NAME_FILE_LOG);
-            try
+            String jsonInfo = makeJson ();
+            File file;
+            if (jsonInfo != null && (file = new File (Address.GetPathLog ())).exists ())
             {
-                if (file.exists () || file.createNewFile ())
-                    Files.write (Paths.get (file.toURI ()) , (jsonInfo + "\n").getBytes () , StandardOpenOption.APPEND);
-
-            }
-            catch (IOException ignored)
-            {
+                file = new File (file.getPath () + File.separator + NAME_FILE_LOG);
+                try
+                {
+                    if (file.exists () || file.createNewFile ())
+                        Files.write (Paths.get (file.toURI ()) , (jsonInfo + "\n").getBytes () , StandardOpenOption.APPEND);
+                }
+                catch (IOException ignored)
+                {
+                }
             }
         }
     }
 
+    private boolean checkFile ()
+    {
+        File file = new File (Address.GetPathLog ());
+        if (!file.exists ())
+        {
+            try
+            {
+                return file.createNewFile ();
+            }
+            catch (IOException e)
+            {
+                return false;
+            }
+        }
+        else return true;
+    }
 
     private String makeJson ()
     {
         try
         {
             JSONObject jsonHeader = new JSONObject ();
-            Enumeration<String> headerNames = request.getHeaderNames ();
+            Enumeration <String> headerNames = request.getHeaderNames ();
             while (headerNames.hasMoreElements ())
             {
                 String headerName = headerNames.nextElement ();
@@ -107,11 +126,11 @@ public class Log
             String queryString = request.getQueryString ();
 
             JSONObject parameter = new JSONObject ();
-            for (Map.Entry<String, String[]> entry : request.getParameterMap ().entrySet ())
+            for (Map.Entry <String, String[]> entry : request.getParameterMap ().entrySet ())
                 parameter.put (entry.getKey () , Arrays.toString (entry.getValue ()));
 
             JSONObject parameterPost = new JSONObject ();
-            Enumeration<String> paramPost = request.getParameterNames ();
+            Enumeration <String> paramPost = request.getParameterNames ();
             while (paramPost.hasMoreElements ())
             {
                 String paramName = paramPost.nextElement ();
@@ -132,7 +151,8 @@ public class Log
 
             MakeJson jsonRes = new MakeJson ();
             jsonRes.put (KJ_STATUS_CODE , statusCode);
-            if (resultModel != null) jsonRes.put (KJ_RESULT_MODEL , resultModel.toString ().replace ("\"" , "\\\""));
+            if (resultModel != null)
+                jsonRes.put (KJ_RESULT_MODEL , resultModel.toString ().replace ("\"" , "\\\""));
             MakeJson jsonAllInfo = new MakeJson ();
             jsonAllInfo.put (KJ_WHERE , where);
             jsonAllInfo.put (KJ_MESSAGE , message);
@@ -146,5 +166,10 @@ public class Log
         {
         }
         return null;
+    }
+
+    public static int GetPageCode ()
+    {
+        return PageCode;
     }
 }

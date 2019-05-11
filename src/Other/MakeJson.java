@@ -88,7 +88,7 @@ public class MakeJson
             isEncode = (Boolean) inf[INDEX_IS_ENCODE];
             if (value instanceof Integer) resultJson.put (key , value);
             else if (value instanceof String)
-                resultJson.put (key , (isEncode) ? Str.EnCoder ((String) value) : value);
+                resultJson.put (key , ((isEncode) ? Str.EnCoder ((String) value) : value));
             else if (value instanceof Boolean) resultJson.put (key , value);
             else if (value instanceof Double) resultJson.put (key , value);
             else if (value instanceof Float) resultJson.put (key , value);

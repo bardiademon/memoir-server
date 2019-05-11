@@ -43,7 +43,7 @@ public class CJSON implements JustController
     public void RunClass ()
     {
         ok = Checking ();
-        if (getValueJson) ok = (ok && getValue ());
+        if (getValueJson && (json != null && json.length () > 0)) ok = (ok && getValue ());
     }
 
     @Override
@@ -255,7 +255,7 @@ public class CJSON implements JustController
             for (String key : this.key) valueJson.put (key , json.get (key));
             return true;
         }
-        catch (JSONException e)
+        catch (Exception e)
         {
             return false;
         }
@@ -331,7 +331,7 @@ public class CJSON implements JustController
     }
 
     // V => Value
-    public Short getVShort(String key)
+    public Short getVShort (String key)
     {
         try
         {

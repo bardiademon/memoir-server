@@ -25,6 +25,7 @@ public interface InfoDatabase
 
     abstract class TAccount extends PublicRow
     {
+        // ID, STATUS => PublicRow
         public static final String NT = "account";
         public static final String
                 USERNAME = "username",
@@ -43,6 +44,7 @@ public interface InfoDatabase
 
     abstract class TSubject extends PublicRow
     {
+        // id , name => PublicRow
         public static final String NT = "sub";
     }
 
@@ -75,12 +77,12 @@ public interface InfoDatabase
     {
         // ID
         public static final String NT = "like";
-        public static final String ID_MEMOIR = "id_memoir", ID_USER = "id_user";
+        public static final String ID_MEMOIR = "id_memoir";
     }
 
     abstract class TComment extends TLike
     {
-        // ID
+        // ID , IdMemoir => TLike
         public static final String NT = "comment";
         public static final String TXT_COMMENT = "comment";
         public static final String TIME = "time";
@@ -88,8 +90,15 @@ public interface InfoDatabase
 
     abstract class TVisitUser extends TLike
     {
-        // ID
+        // ID, IDUser , IDMemoir
         public static final String NT = "visit_user";
+    }
+
+    abstract class TINeedItCmnt extends PublicRow
+    {
+        // ID, IDUser
+        public static final String ID_COMMENT = "id_comment";
+        public static final String NT = "ineeditcomnt";
     }
 
 }

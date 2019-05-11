@@ -6,7 +6,7 @@ import bardiademon.Interface.bardiademon;
 public interface ResultModel
 {
 
-    // MAX NUMBER => 16
+    // MAX NUMBER => 18
 
     @bardiademon
     abstract class ResultCheckRequest extends PublicResult
@@ -31,6 +31,7 @@ public interface ResultModel
         public static final int NOT_OK = -7;
         public static final int FOUND = 1;
         public static final int NULL = -123;
+        public static final int SET = 17, UNSET = 18;
 
         // For Log Server
         public static final int SERVER = 471;
@@ -39,7 +40,9 @@ public interface ResultModel
         public static abstract class ForLog
         {
             public static final String SHOW_RESULT_TO_CLIENT = "show_result_to_client";
+            public static final String SUBJECT_ERROR = "subject_error";
             public static final int ID_NOT_FOUND = -14;
+            public static final int ERROR = -400;
         }
     }
 
@@ -99,9 +102,14 @@ public interface ResultModel
     // KJR => Key Json Response
     interface KJR
     {
-        abstract class KJRPublic
+        abstract class KJR_ID
         {
-            public static final String NAME = "name", ID = "id";
+            public static final String ID = "id", ID_USER = "idusr";
+        }
+
+        abstract class KJRPublic extends KJR_ID
+        {
+            public static final String NAME = "name";
         }
 
         abstract class KJRGetMemoirUser extends KJRPublic
@@ -134,6 +142,7 @@ public interface ResultModel
 
         abstract class KJRGetComment extends KJRPublic
         {
+            public static final String JSON_INFO_USER = "infusr";
             public static final String
                     TXT_COMMENT = "tcmnt",
                     TIME = "tm",

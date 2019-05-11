@@ -17,7 +17,6 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet (urlPatterns = "/DelMemoirUser", name = "del_memoir_user")
 public class PDeleteMemoirUser extends HttpServlet implements Page
 {
-
     private static final int PAGE_CODE = 4;
 
     @bardiademon

@@ -10,7 +10,7 @@ import java.sql.Statement;
 
 public abstract class HandlerDb
 {
-    private static final String username = "root", password = "73487712", dbName = "memoir", domain = "localhost", nameSQL = "mysql";
+    private static final String username = "root", password = "", dbName = "memoir", domain = "localhost", nameSQL = "mysql";
     private static final int port = 3306;
 
     public static Connection GetConnection () throws SQLException

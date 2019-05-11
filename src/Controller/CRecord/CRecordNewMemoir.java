@@ -4,6 +4,7 @@ import Controller.Request.RequestUser.KJR;
 import Interface.Controller;
 import Interface.ResultModel;
 import Model.Database.InfoDatabase;
+import Model.Get.GetSubject;
 import Model.MRecord.MRecordNewMemoir;
 import Other.Str;
 import Controller.CController;
@@ -13,8 +14,12 @@ import bardiademon.Interface.bardiademon;
 import bardiademon.Interface.IsController;
 import bardiademon.Other.Log;
 import bardiademon.Other.SQL;
+
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -50,7 +55,6 @@ public class CRecordNewMemoir implements Controller
             return;
         }
         SendToModel ();
-        GetResultFromModel ();
     }
 
     @bardiademon
@@ -103,7 +107,8 @@ public class CRecordNewMemoir implements Controller
     @bardiademon
     private int checkLink ()
     {
-        if (!(CheckString.checkUsername (link))) return ResultModel.RecordNewMemoir.SC200.ERROR_LINK;
+        if (!(CheckString.checkUsername (link)))
+            return ResultModel.RecordNewMemoir.SC200.ERROR_LINK;
         if (new SQL.Ready.CheckValueInSQL ().is (InfoDatabase.TMemoirList.NT , InfoDatabase.TMemoirList.LINK , link))
             return ResultModel.RecordNewMemoir.SC400.DUPLICATE_LINK;
         return ResultModel.RecordNewMemoir.NULL;
@@ -119,7 +124,17 @@ public class CRecordNewMemoir implements Controller
     @Override
     public void SendToModel ()
     {
-        mRecordNewMemoir = new MRecordNewMemoir (name , subject , link , date , text , open);
+        GetSubject getSubject = new GetSubject (URLDecoder.decode (subject , StandardCharsets.UTF_8));
+        if (getSubject.isFound ())
+        {
+            mRecordNewMemoir = new MRecordNewMemoir (name , getSubject.getId () , link , date , text , open);
+            GetResultFromModel ();
+        }
+        else
+        {
+            Log.NL (HttpServletResponse.SC_BAD_REQUEST , ResultModel.PublicResult.PUBLIC_ERROR_REQUEST , Thread.currentThread ().getStackTrace () , ResultModel.PublicResult.ForLog.SUBJECT_ERROR);
+            Controller.SetResult (ResultModel.PublicResult.PUBLIC_ERROR_REQUEST , HttpServletResponse.SC_BAD_REQUEST);
+        }
     }
 
     @bardiademon
@@ -128,7 +143,7 @@ public class CRecordNewMemoir implements Controller
     {
         if (mRecordNewMemoir.IsThereAResult ())
         {
-            Log.NL (HttpServletResponse.SC_OK , mRecordNewMemoir.Result () , Thread.currentThread ().getStackTrace () , "");
+            Log.NL (HttpServletResponse.SC_OK , mRecordNewMemoir.Result () , Thread.currentThread ().getStackTrace () , ResultModel.PublicResult.ForLog.SHOW_RESULT_TO_CLIENT);
             Controller.SetResult (mRecordNewMemoir.Result () , HttpServletResponse.SC_OK);
         }
     }

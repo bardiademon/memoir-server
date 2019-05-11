@@ -14,7 +14,7 @@ import bardiademon.Interface.bardiademon;
 
 @bardiademon
 @IsPage
-@WebServlet (urlPatterns = "/CheckInfoLogin")
+@WebServlet (urlPatterns = "/CheckInfoLogin", name = "check_info_login")
 public class PCheckInfoLogin extends HttpServlet implements Page
 {
     private static final int PAGE_CODE = 1;

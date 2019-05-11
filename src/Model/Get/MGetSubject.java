@@ -25,7 +25,6 @@ public class MGetSubject implements Model
     private ResultSet resultSet;
     private Statement statement;
 
-    public MGetSubject ()
     {
         RunClass ();
     }

@@ -11,7 +11,7 @@ public class CheckRequest implements Controller
 {
     private String nameRequest;
     private Model.CheckRequest checkRequest;
-    private static final int MIN_LEN_REQUEST = 5;
+    private static final int MIN_LEN_REQUEST = 2;
     private int pageCode;
 
     @bardiademon

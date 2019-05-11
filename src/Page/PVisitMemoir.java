@@ -9,7 +9,9 @@ import Controller.CPage;
 import Controller.Request;
 import Controller.Update.CUpdateVLC;
 import Interface.Page;
+import bardiademon.Interface.bardiademon;
 
+@bardiademon
 @WebServlet (urlPatterns = "/VisitMemoir", name = "update_visit")
 public class PVisitMemoir extends HttpServlet implements Page
 {
@@ -21,6 +23,7 @@ public class PVisitMemoir extends HttpServlet implements Page
         SendToController (CPage.User.IsOkRequest (Request , Response , PAGE_CODE));
     }
 
+    @bardiademon
     @Override
     public void SendToController (boolean IsOkRequest)
     {

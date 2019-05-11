@@ -2,9 +2,11 @@ package Controller;
 
 import Model.Check.CheckInfoLogin;
 
+import Page.Req;
 import bardiademon.Controller.CJSON;
 import bardiademon.Interface.IsController;
 import bardiademon.Interface.bardiademon;
+import bardiademon.Other.Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -29,26 +31,26 @@ public abstract class Request
         private static final String NameRequest = "_REQUEST_";
 
         @bardiademon
-        static boolean Checking (HttpServletRequest Request , int PageCode)
+        static boolean Checking ()
         {
-            return Checking (Request , PageCode , true);
+            return Checking (true);
         }
 
         @bardiademon
-        public static boolean Checking (HttpServletRequest Request , int PageCode , boolean CheckInfoLogin)
+        public static boolean Checking (boolean CheckInfoLogin)
         {
-            if (!Request.getMethod ().equals (DEFAULT_METHOD)) return false;
-            String nameRequest = Request.getHeader (KEY_HEADER__NAME_REQUEST);
+            if (!Req.GetRequest ().getMethod ().equals (DEFAULT_METHOD)) return false;
+            String nameRequest = Req.GetRequest ().getHeader (KEY_HEADER__NAME_REQUEST);
             if (nameRequest == null) return false;
-            CheckRequest checkRequest = new CheckRequest (nameRequest , PageCode);
+            CheckRequest checkRequest = new CheckRequest (nameRequest , Log.GetPageCode ());
 
             boolean checkInfoLogin = true;
             if (CheckInfoLogin)
-                checkInfoLogin = RequestUser.CheckingInfoLogin (Request.getHeader (KEY_HEADER__INFO_LOGIN));
+                checkInfoLogin = RequestUser.CheckingInfoLogin (Req.GetRequest ().getHeader (KEY_HEADER__INFO_LOGIN));
 
-            if (checkRequest.isFound () && Request.getQueryString () == null && checkInfoLogin)
+            if (checkRequest.isFound () && Req.GetRequest ().getQueryString () == null && checkInfoLogin)
             {
-                JsonRequest = Request.getParameter (NameRequest);
+                JsonRequest = Req.GetRequest ().getParameter (NameRequest);
                 return true;
             }
             else return false;
@@ -114,6 +116,8 @@ public abstract class Request
             abstract class PublicKJR
             {
                 public static final String NAME = "name", ID = "id";
+                public static final String KJR_TEXT = "text";
+                public static final String ID_COMMENT = "idc", LINK_MEMOIR = "lnkm";
             }
 
             @bardiademon
@@ -123,7 +127,6 @@ public abstract class Request
                 public static final String KJR_SUBJECT = "subject";
                 public static final String KJR_LINK = "link";
                 public static final String KJR_DATE = "date";
-                public static final String KJR_TEXT = "text";
                 public static final String KJR_OPEN = "open";
             }
 
@@ -163,11 +166,20 @@ public abstract class Request
             @bardiademon
             abstract class KJR_GetComment extends PublicKJR
             {
+                public static final int LEN = 1;
+                public static final String LINK_MEMOIR = "link";
+            }
 
-                   public static final int LEN = 1;
-                public static final String ID_MEMOIR = "id_memoir";
+            @bardiademon
+            abstract class KJR_DeleteComment extends PublicKJR
+            {
+                public static final int LEN = 2;
+            }
 
-
+            @bardiademon
+            abstract class KJR_NewComment extends PublicKJR
+            {
+                public static final int LEN = 2;
             }
         }
 

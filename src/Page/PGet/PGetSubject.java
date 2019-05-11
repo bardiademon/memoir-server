@@ -13,7 +13,6 @@ import Controller.CPage;
 @WebServlet (urlPatterns = "/GetSubject", name = "get_subject")
 public class PGetSubject extends HttpServlet implements Page
 {
-
     private static final int PAGE_CODE = 6;
 
     @Override

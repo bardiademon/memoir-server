@@ -14,10 +14,9 @@ import javax.servlet.http.HttpServletResponse;
 
 @bardiademon
 @IsPage
-@WebServlet (urlPatterns = "/RecordNewMemoir")
+@WebServlet (urlPatterns = "/RecordNewMemoir", name = "record_new_memoir")
 public class PRecordNewMemoir extends HttpServlet implements Page
 {
-
     private static final int PAGE_CODE = 2;
 
     @bardiademon

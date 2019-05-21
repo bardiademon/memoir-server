@@ -37,6 +37,15 @@ public class CheckId implements Model
     }
 
     @bardiademon
+    public CheckId (String TableName , Object ValueCheck)
+    {
+        this.tableName = TableName;
+        this.rowName = InfoDatabase.PublicRow.ID;
+        this.valueCheck = ValueCheck;
+        RunClass ();
+    }
+
+    @bardiademon
     @Override
     public void RunClass ()
     {

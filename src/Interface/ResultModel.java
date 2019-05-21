@@ -6,7 +6,7 @@ import bardiademon.Interface.bardiademon;
 public interface ResultModel
 {
 
-    // MAX NUMBER => 18
+    // MAX NUMBER => 19
 
     @bardiademon
     abstract class ResultCheckRequest extends PublicResult
@@ -64,7 +64,7 @@ public interface ResultModel
     }
 
     @bardiademon
-    abstract class RecordNewMemoir extends PublicResult
+    abstract class RecordChangeMemoir extends PublicResult
     {
         // SC = Status Code
         public static abstract class SC400
@@ -75,6 +75,7 @@ public interface ResultModel
         public static abstract class SC200
         {
             public static final int NOT_RECORDED = 10, RECORDED = 11;
+            public static final int CHANGED = 19;
             public static final int ERROR_LINK = 8, ERROR_DATE = 9;
         }
 
@@ -114,7 +115,7 @@ public interface ResultModel
 
         abstract class KJRGetMemoirUser extends KJRPublic
         {
-            public static final String SUBJECT = "sub", CONFIRMATION = "con", LINK = "lnk", OPEN = "opn";
+            public static final String SUBJECT = "sub", CONFIRMATION = "con", LINK = "lnk", OPEN = "opn", DATE = "dt";
         }
 
         abstract class KJRGetMemoir extends KJRPublic

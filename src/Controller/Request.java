@@ -11,8 +11,6 @@ import bardiademon.Other.Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import javax.servlet.http.HttpServletRequest;
-
 @bardiademon
 @IsController
 public abstract class Request
@@ -121,13 +119,15 @@ public abstract class Request
             }
 
             @bardiademon
-            abstract class KJR_RecordNewMemoir extends PublicKJR
+            abstract class KJR_RecordChangeNewMemoir extends PublicKJR
             {
-                public static final int LEN = 6;
-                public static final String KJR_SUBJECT = "subject";
-                public static final String KJR_LINK = "link";
-                public static final String KJR_DATE = "date";
-                public static final String KJR_OPEN = "open";
+                public static final int LEN = 6, LEN_C = 8;
+                public static final String
+                        KJR_SUBJECT = "subject",
+                        KJR_LINK = "link",
+                        KJR_DATE = "date",
+                        KJR_OPEN = "open",
+                        KJR_C_CHANGE = "chng";
             }
 
             @bardiademon

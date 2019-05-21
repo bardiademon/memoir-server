@@ -7,37 +7,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbabdd11-c930-4016-80eb-c97ab4bb46ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Controller/CSave/CNewComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Check/CCheckIsInINeedCmnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/Delete/CDeleteComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/PSet/CSetINeedItCmnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Check/MCheckIsInINeedCmnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Delete/MDeleteComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/MSave/MNewComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/MSet/MSetINeedItCmnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/Delete/PDeleteComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/PCheck/PCheckIsInINeedCmnt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/PSave/PNewComment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/PSet/PSetINeedItCmnt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/CGet/CGetTextMemoir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Model/Get/MGetTextMemoir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Page/PGet/PGetTextMemoir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/bardiademon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/bardiademon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Archives/log/Log.lg" beforeDir="false" afterPath="$PROJECT_DIR$/Archives/log/Log.lg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CController$User$Ready$IsOkJsonJustId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CController$User$Ready$IsOkJsonJustId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetMemoir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CPage$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CPage$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CRecord/CRecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CSave/CNewComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CSave/CNewComment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Check/CheckInfoLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Check/CheckInfoLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CheckRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CheckRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Delete/CDeleteComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Delete/CDeleteComment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_LikeUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_LikeUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser$DV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser$DV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$PublicKJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$PublicKJR.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$CheckInfoLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$CheckInfoLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$DelMemoirMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$DelMemoirMemoir$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$DelMemoirMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$DelMemoirMemoir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Update/CUpdateVLC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Update/CUpdateVLC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir$SC200.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoirUser$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoirUser$SC200.class" afterDir="false" />
@@ -48,33 +39,40 @@
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRPublic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRPublic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRSubject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJR_ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJR_ID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$PublicResult$ForLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$PublicResult$ForLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$PublicResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$PublicResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC400.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC400.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Check/CheckSerialNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Check/CheckSerialNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Database/InfoDatabase$TLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Database/InfoDatabase$TLike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Database/InfoDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Database/InfoDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC400.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/CheckId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/CheckId.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/GetSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/GetSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/MGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/MGetComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Page/PGet/PGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Page/PGet/PGetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Page/PVisitMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Page/PVisitMemoir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/MGetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/MGetMemoirUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/MRecord/MRecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Page/PRecord/PRecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$VD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$VD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select$ValueQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select$ValueQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CController$User$Ready$IsOkJsonJustId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CController$User$Ready$IsOkJsonJustId.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetMemoir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CPage$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CPage$User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CRecord/CRecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CSave/CNewComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CSave/CNewComment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Check/CheckInfoLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Check/CheckInfoLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CheckRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CheckRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetComment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Delete/CDeleteComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Delete/CDeleteComment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_LikeUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_LikeUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser$DV.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser$DV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR__GetMemoirUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$PublicKJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$PublicKJR.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$CheckInfoLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$CheckInfoLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$DelMemoirMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$DelMemoirMemoir$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$DelMemoirMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$DelMemoirMemoir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Update/CUpdateVLC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Update/CUpdateVLC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir$SC200.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoirUser$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoirUser$SC200.class" afterDir="false" />
@@ -85,32 +83,36 @@
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRPublic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRPublic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRSubject.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJR_ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJR_ID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$PublicResult$ForLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$PublicResult$ForLog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$PublicResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$PublicResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC400.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC400.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Check/CheckSerialNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Check/CheckSerialNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Database/InfoDatabase$TLike.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Database/InfoDatabase$TLike.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Database/InfoDatabase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Database/InfoDatabase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC200.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC400.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/CheckId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/CheckId.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Get/GetSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Get/GetSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Get/MGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Get/MGetComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Page/PGet/PGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Page/PGet/PGetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Page/PVisitMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Page/PVisitMemoir.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Get/MGetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Get/MGetMemoirUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/MRecord/MRecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Page/PRecord/PRecordNewMemoir.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$VD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$VD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select$ValueQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select$ValueQuery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/CPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Check/CheckInfoLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Check/CheckInfoLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CheckRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CheckRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/CRecord/CRecordNewMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CRecordChangeMemoir.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Request.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interface/ResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/ResultModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Check/CheckSerialNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Check/CheckSerialNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Database/InfoDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Database/InfoDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/CheckId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/CheckId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Model/Get/GetSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Get/GetSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Get/MGetComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Get/MGetComment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Update/UpdateVVuLC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Update/UpdateVVuLC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/PGet/PGetMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/PGet/PGetMemoir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/PVisitMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/PVisitMemoir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bardiademon/Other/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bardiademon/Other/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Model/MRecord/MRecordNewMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MRecordChangeMemoir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Page/PRecord/PRecordNewMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/PRecordChangeMemoir.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bardiademon/Controller/CJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bardiademon/Controller/CJSON.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bardiademon/Other/SQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bardiademon/Other/SQL.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -124,45 +126,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Page/Req.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#278#279#0" expanded="true" />
-                <element signature="e#315#316#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Page/Response.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Controller/CPage.java">
+        <entry file="file://$PROJECT_DIR$/src/Controller/CRecordChangeMemoir.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Controller/Request.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="276">
+              <caret line="145" column="45" selection-start-line="145" selection-start-column="45" selection-end-line="145" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,16 +139,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bardiademon/Other/Log.java">
+        <entry file="file://$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4410">
-              <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-              <folding>
-                <element signature="e#1472#1473#0" expanded="true" />
-                <element signature="e#1507#1508#0" expanded="true" />
-                <element signature="e#5763#5764#0" expanded="true" />
-                <element signature="e#5794#5795#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2880">
+              <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -197,6 +159,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Req</find>
+      <find>System.out</find>
+      <find>Syst</find>
+      <find>Sys</find>
     </findStrings>
     <dirStrings>
       <dir>E:\Programming\project\java\JavaEE\Memoir\src</dir>
@@ -209,20 +174,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Model/Get/MGetSubject.java" />
-        <option value="$PROJECT_DIR$/src/Model/Check/CheckInfoLogin.java" />
-        <option value="$PROJECT_DIR$/src/bardiademon/Other/InfoServer.java" />
-        <option value="$PROJECT_DIR$/src/bardiademon/Controller/CJSON.java" />
-        <option value="$PROJECT_DIR$/src/Model/Get/GetSubjectWithName.java" />
-        <option value="$PROJECT_DIR$/src/Controller/CController.java" />
-        <option value="$PROJECT_DIR$/Archives/log/Log.lg" />
-        <option value="$PROJECT_DIR$/src/bardiademon/Other/Str.java" />
-        <option value="$PROJECT_DIR$/src/Model/MRecord/MRecordNewMemoir.java" />
-        <option value="$PROJECT_DIR$/src/Model/Get/GetIdSubject.java" />
-        <option value="$PROJECT_DIR$/src/Page/PGet/PGetComment.java" />
-        <option value="$PROJECT_DIR$/src/Page/Req.java" />
-        <option value="$PROJECT_DIR$/src/Other/GetFile.java" />
-        <option value="$PROJECT_DIR$/src/Model/Get/GetPictureProfile.java" />
         <option value="$PROJECT_DIR$/src/Controller/CGet/CGetComment.java" />
         <option value="$PROJECT_DIR$/src/Other/MakeJson.java" />
         <option value="$PROJECT_DIR$/src/Page/PCheck/CheckIsInINeedCmnt.java" />
@@ -240,7 +191,6 @@
         <option value="$PROJECT_DIR$/src/Controller/PSet/CSetINeedItCmnt.java" />
         <option value="$PROJECT_DIR$/src/Page/PSet/PSetINeedItCmnt.java" />
         <option value="$PROJECT_DIR$/src/Model/MSet/MSetINeedItCmnt.java" />
-        <option value="$PROJECT_DIR$/src/Interface/ResultModel.java" />
         <option value="$PROJECT_DIR$/src/Model/Delete/MDeleteComment.java" />
         <option value="$PROJECT_DIR$/src/Page/Delete/PDeleteComment.java" />
         <option value="$PROJECT_DIR$/src/Controller/Delete/CDeleteComment.java" />
@@ -253,13 +203,28 @@
         <option value="$PROJECT_DIR$/src/Model/Get/MGetComment.java" />
         <option value="$PROJECT_DIR$/src/Model/Get/MGetMemoir.java" />
         <option value="$PROJECT_DIR$/src/Page/PGet/PGetMemoir.java" />
-        <option value="$PROJECT_DIR$/src/Model/Get/GetSubject.java" />
-        <option value="$PROJECT_DIR$/src/Controller/CRecord/CRecordNewMemoir.java" />
         <option value="$PROJECT_DIR$/src/bardiademon/Other/GetValueFile.java" />
         <option value="$PROJECT_DIR$/src/Page/Response.java" />
         <option value="$PROJECT_DIR$/src/bardiademon/Other/Log.java" />
-        <option value="$PROJECT_DIR$/src/Controller/Request.java" />
+        <option value="$PROJECT_DIR$/src/Page/PRecord/PRecordNewMemoir.java" />
+        <option value="$PROJECT_DIR$/src/Controller/CRecord/CRecordNewMemoir.java" />
+        <option value="$PROJECT_DIR$/src/Model/CheckId.java" />
+        <option value="$PROJECT_DIR$/src/Model/Get/MGetTextMemoir.java" />
+        <option value="$PROJECT_DIR$/src/Page/PGet/PGetTextMemoir.java" />
+        <option value="$PROJECT_DIR$/src/Page/Req.java" />
+        <option value="$PROJECT_DIR$/src/View/ViewResult.java" />
         <option value="$PROJECT_DIR$/src/Controller/CPage.java" />
+        <option value="$PROJECT_DIR$/src/Controller/CGet/CGetTextMemoir.java" />
+        <option value="$PROJECT_DIR$/src/Page/PRecordChangeMemoir.java" />
+        <option value="$PROJECT_DIR$/src/Interface/ResultModel.java" />
+        <option value="$PROJECT_DIR$/src/Controller/Request.java" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/src/bardiademon/Controller/CJSON.java" />
+        <option value="$PROJECT_DIR$/src/Controller/CRecordChangeMemoir.java" />
+        <option value="$PROJECT_DIR$/src/bardiademon/Other/SQL.java" />
+        <option value="$PROJECT_DIR$/src/Model/MRecordChangeMemoir.java" />
+        <option value="$PROJECT_DIR$/src/Model/Get/GetSubject.java" />
+        <option value="$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java" />
       </list>
     </option>
   </component>
@@ -277,10 +242,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="470" />
-    <option name="y" value="-20" />
-    <option name="width" value="1600" />
-    <option name="height" value="1035" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1940" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -288,7 +253,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -299,51 +264,7 @@
             <path>
               <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
               <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="Archives" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="Archives" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bardiademon" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bardiademon" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bardiademon" type="462c0819:PsiDirectoryNode" />
-              <item name="Interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bardiademon" type="462c0819:PsiDirectoryNode" />
-              <item name="Other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
@@ -355,33 +276,22 @@
               <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
               <item name="Memoir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Other" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Page" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Memoir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Memoir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Page" type="462c0819:PsiDirectoryNode" />
-              <item name="PGet" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Get" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="editor.config.ad.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Old/IntelliJ/Download" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.jscs" value="project" />
@@ -420,6 +330,8 @@
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.14" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Memoir:war exploded">
           <settings>
@@ -435,6 +347,24 @@
       <predefined_log_file id="Tomcat Manager" />
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="61239" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -504,17 +434,32 @@
       <workItem from="1557325518518" duration="4890000" />
       <workItem from="1557395374817" duration="8185000" />
       <workItem from="1557479264106" duration="4841000" />
-      <workItem from="1557557748309" duration="1532000" />
+      <workItem from="1557557748309" duration="2743000" />
+      <workItem from="1557646842066" duration="2078000" />
+      <workItem from="1557650560710" duration="3159000" />
+      <workItem from="1557747039009" duration="3808000" />
+      <workItem from="1557764213691" duration="111000" />
+      <workItem from="1557771487530" duration="1274000" />
+      <workItem from="1557841720410" duration="2295000" />
+      <workItem from="1557903607025" duration="5659000" />
+      <workItem from="1557991435706" duration="678000" />
+      <workItem from="1557995582373" duration="5938000" />
+      <workItem from="1558072396781" duration="13097000" />
+      <workItem from="1558163260756" duration="11242000" />
+      <workItem from="1558210630480" duration="33000" />
+      <workItem from="1558343101327" duration="9582000" />
+      <workItem from="1558423553277" duration="1324000" />
+      <workItem from="1558449371713" duration="834000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103145000" />
+    <option name="totallyTimeSpent" value="165468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19705094" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -524,8 +469,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32892805" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34948605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37151247" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4845815" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -556,92 +501,436 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Page/PVisitMemoir.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/ByteOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MSet/MSetINeedItCmnt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="37" column="5" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="64">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1553#1554#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#3491#3492#0" expanded="true" />
-            <element signature="e#3586#3587#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interface/Controller.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/HeapByteBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Check/MCheckIsInINeedCmnt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-930">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="57">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2818#2819#0" expanded="true" />
-            <element signature="e#2913#2914#0" expanded="true" />
+            <element signature="e#3157#3158#0" expanded="true" />
+            <element signature="e#3190#3191#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Check/CCheckIsInINeedCmnt.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="68" selection-start-line="68" selection-end-line="72" selection-end-column="9" />
+        <state relative-caret-position="87">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1357#1358#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#8486#8487#0" expanded="true" />
+            <element signature="e#8523#8524#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/PSet/PSetINeedItCmnt.java">
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/sun/nio/cs/ThreadLocalCoders.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="57">
+          <caret line="108" selection-start-line="108" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/HeapCharBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/ByteBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="1086" selection-start-line="1086" selection-end-line="1086" />
+          <folding>
+            <element signature="e#26302#26303#0" expanded="true" />
+            <element signature="e#26352#26353#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/sun/nio/cs/ISO_8859_1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="121" selection-start-line="121" selection-end-line="121" />
+          <folding>
+            <element signature="e#1102#1103#0" expanded="true" />
+            <element signature="e#1142#1143#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
+            <element signature="e#3372#3373#0" expanded="true" />
+            <element signature="e#3518#3519#0" expanded="true" />
+            <element signature="e#3582#3583#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/charset/CoderResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="118" selection-start-line="118" selection-end-line="118" />
+          <folding>
+            <element signature="e#3804#3805#0" expanded="true" />
+            <element signature="e#4010#4011#0" expanded="true" />
+            <element signature="e#4054#4055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/charset/CharsetDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="817" selection-start-line="817" selection-end-line="817" />
+          <folding>
+            <element signature="e#8627#8628#0" expanded="true" />
+            <element signature="e#8657#8658#0" expanded="true" />
+            <element signature="e#13926#13927#0" expanded="true" />
+            <element signature="e#13968#13969#0" expanded="true" />
+            <element signature="e#24383#24384#0" expanded="true" />
+            <element signature="e#24427#24428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/charset/Charset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="810" selection-start-line="810" selection-end-line="810" />
+          <folding>
+            <element signature="e#26237#26238#0" expanded="true" />
+            <element signature="e#26264#26265#0" expanded="true" />
+            <element signature="e#34570#34571#0" expanded="true" />
+            <element signature="e#34610#34611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="483" selection-start-line="483" selection-end-line="483" />
+          <folding>
+            <element signature="e#9088#9089#0" expanded="true" />
+            <element signature="e#9119#9120#0" expanded="true" />
+            <element signature="e#9260#9261#0" expanded="true" />
+            <element signature="e#9291#9292#0" expanded="true" />
+            <element signature="e#10826#10827#0" expanded="true" />
+            <element signature="e#10854#10855#0" expanded="true" />
+            <element signature="e#15641#15642#0" expanded="true" />
+            <element signature="e#15919#15920#0" expanded="true" />
+            <element signature="e#15958#15959#0" expanded="true" />
+            <element signature="e#22655#22656#0" expanded="true" />
+            <element signature="e#22729#22730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/CharBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="1421" selection-start-line="1421" selection-end-line="1421" />
+          <folding>
+            <element signature="e#7611#7612#0" expanded="true" />
+            <element signature="e#7662#7663#0" expanded="true" />
+            <element signature="e#27974#27975#0" expanded="true" />
+            <element signature="e#28024#28025#0" expanded="true" />
+            <element signature="e#38419#38420#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/StringUTF16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="161" selection-start-line="161" selection-end-line="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/AbstractList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.logging/java/util/logging/Level.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="431" selection-start-line="431" selection-end-line="431" />
+          <folding>
+            <element signature="e#15107#15108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.logging/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="2033" selection-start-line="2033" selection-end-line="2033" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/StringLatin1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#996#997#0" expanded="true" />
+            <element signature="e#1032#1033#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="1017" selection-start-line="1017" selection-end-line="1017" />
+          <folding>
+            <element signature="e#24839#24840#0" expanded="true" />
+            <element signature="e#24885#24886#0" expanded="true" />
+            <element signature="e#61262#61263#0" expanded="true" />
+            <element signature="e#61299#61300#0" expanded="true" />
+            <element signature="e#132657#132658#0" expanded="true" />
+            <element signature="e#132711#132712#0" expanded="true" />
+            <element signature="e#132795#132796#0" expanded="true" />
+            <element signature="e#132852#132853#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="567" selection-start-line="567" selection-end-line="567" />
+          <folding>
+            <element signature="e#23525#23526#0" expanded="true" />
+            <element signature="e#23579#23580#0" expanded="true" />
+            <element signature="e#24220#24221#0" expanded="true" />
+            <element signature="e#24285#24286#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="443" selection-start-line="443" selection-end-line="443" />
+          <folding>
+            <element signature="e#8804#8805#0" expanded="true" />
+            <element signature="e#8857#8858#0" expanded="true" />
+            <element signature="e#19630#19631#0" expanded="true" />
+            <element signature="e#19658#19659#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="371" selection-start-line="371" selection-end-line="371" />
+          <folding>
+            <element signature="e#13945#13946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="458" selection-start-line="458" selection-end-line="458" />
+          <folding>
+            <element signature="e#10598#10599#0" expanded="true" />
+            <element signature="e#10625#10626#0" expanded="true" />
+            <element signature="e#16108#16109#0" expanded="true" />
+            <element signature="e#16153#16154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bardiademon/Other/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="e#1472#1473#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Page/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+          <folding>
+            <element signature="e#3442#3443#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicBoolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+          <folding>
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1550#1551#0" expanded="true" />
+            <element signature="e#4490#4491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../127.0.0.1/Java/Apache Software Foundation/Tomcat 9.0_ServerJavaTomcat9/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="44" column="153" selection-start-line="44" selection-start-column="153" selection-end-line="44" selection-end-column="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="834" selection-start-line="834" selection-end-line="834" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/View/ViewResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CGet/CGetTextMemoir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Page/PGet/PGetTextMemoir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Page/PRecordChangeMemoir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="32" column="41" selection-start-line="32" selection-start-column="41" selection-end-line="32" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Archives/log/Log.lg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-41941" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1083">
+          <caret line="4331" column="5" selection-start-line="4331" selection-start-column="5" selection-end-line="4331" selection-end-column="5" />
+          <folding>
+            <element signature="e#201614#201615#0" expanded="true" />
+            <element signature="e#201655#201656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bardiademon/Controller/CJSON.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+        <state relative-caret-position="390">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#6572#6573#0" expanded="true" />
-            <element signature="e#6597#6598#0" expanded="true" />
-            <element signature="e#8485#8486#0" expanded="true" />
-            <element signature="e#8517#8518#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/IS/IsLinkMemoir.java">
+    <entry file="file://$PROJECT_DIR$/src/Interface/ResultModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="45" selection-end-column="16" />
+        <state relative-caret-position="122">
+          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/IS/IsIdMemoirForIdUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/MRecordChangeMemoir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Other/Str.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-730">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        <state relative-caret-position="307">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="e#254#255#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
@@ -651,354 +940,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Interface/ResultModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="49" column="55" lean-forward="true" selection-start-line="49" selection-start-column="55" selection-end-line="49" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Delete/MDeleteMemoirUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1284">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/Delete/PDeleteComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="926">
-          <caret line="32" column="68" lean-forward="true" selection-start-line="32" selection-start-column="68" selection-end-line="32" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/Delete/PDeleteMemoirUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Delete/CDeleteComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2316#2317#0" expanded="true" />
-            <element signature="e#2390#2391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Delete/CDeleteMemoirUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="72" selection-start-line="72" selection-end-line="76" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Other/Useful/UsefulLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-30">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Database/HandlerDb.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1140">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Database/InfoDatabase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/PGet/PGetComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Delete/MDeleteComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="83" column="39" lean-forward="true" selection-start-line="83" selection-start-column="39" selection-end-line="83" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/CheckRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="70" column="16" lean-forward="true" selection-start-line="70" selection-start-column="16" selection-end-line="70" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Update/UpdateVVuLC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="125" column="41" lean-forward="true" selection-start-line="125" selection-start-column="41" selection-end-line="125" selection-end-column="41" />
-          <folding>
-            <element signature="e#5107#5108#0" expanded="true" />
-            <element signature="e#5136#5137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MSave/MNewComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="74" column="41" lean-forward="true" selection-start-line="74" selection-start-column="41" selection-end-line="74" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/PSet/CSetINeedItCmnt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="63" selection-start-line="63" selection-end-line="64" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/PRecord/PRecordNewMemoir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" selection-start-line="19" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CSave/CNewComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="30" column="63" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Get/MGetComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="66" column="49" selection-start-line="66" selection-start-column="49" selection-end-line="66" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Get/MGetMemoir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-324">
-          <caret line="88" column="42" selection-start-line="88" selection-start-column="42" selection-end-line="88" selection-end-column="42" />
-          <folding>
-            <element signature="e#5356#5357#0" expanded="true" />
-            <element signature="e#5393#5394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/PSave/PNewComment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/PCheck/PCheckInfoLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="32" column="69" lean-forward="true" selection-start-line="32" selection-start-column="69" selection-end-line="32" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/Check/CheckInfoLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Archives/log/Log.lg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="829" lean-forward="true" selection-start-line="828" selection-end-line="829" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2250">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../127.0.0.1/Java/Apache Software Foundation/Tomcat 9.0_ServerJavaTomcat9/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/IS/IsMOOC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2244">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Get/GetNumberOfVVuLC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/PGet/PGetMemoir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CGet/CGetMemoir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/CController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CheckRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
-          <folding>
-            <element signature="e#1184#1185#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/Get/GetSubject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/View/ViewResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CRecord/CRecordNewMemoir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="42" column="9" lean-forward="true" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Model/MRecord/MRecordNewMemoir.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bardiademon/Interface/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/bardiademon/Other/GetValueFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/Req.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#315#316#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Page/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-508">
+          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/Request.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="216">
+          <caret line="127" column="42" selection-start-line="127" selection-start-column="42" selection-end-line="127" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3508#3509#0" expanded="true" />
+            <element signature="e#3550#3551#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bardiademon/Other/SQL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="203" column="50" selection-start-line="203" selection-start-column="50" selection-end-line="203" selection-end-column="50" />
+          <folding>
+            <element signature="e#4301#4302#0" expanded="true" />
+            <element signature="e#4341#4342#0" expanded="true" />
+            <element signature="e#4894#4895#0" expanded="true" />
+            <element signature="e#4938#4939#0" expanded="true" />
+            <element signature="e#7982#7983#0" expanded="true" />
+            <element signature="e#8007#8008#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Get/MGetSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2410">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Model/Get/GetSubject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="67" column="9" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/CRecordChangeMemoir.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="145" column="45" selection-start-line="145" selection-start-column="45" selection-end-line="145" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bardiademon/Other/Log.java">
+    <entry file="file://$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4410">
-          <caret line="168" column="5" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-          <folding>
-            <element signature="e#1472#1473#0" expanded="true" />
-            <element signature="e#1507#1508#0" expanded="true" />
-            <element signature="e#5763#5764#0" expanded="true" />
-            <element signature="e#5794#5795#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/CPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="2880">
+          <caret line="119" column="30" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
         </state>
       </provider>
     </entry>

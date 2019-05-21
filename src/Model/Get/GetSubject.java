@@ -60,7 +60,7 @@ public class GetSubject implements Model
         catch (SQLException e)
         {
             UsefulLog.ForSQLException (Thread.currentThread ().getStackTrace () , e);
-            SetResult (ResultModel.RecordNewMemoir.SC200.NOT_RECORDED);
+            SetResult (ResultModel.RecordChangeMemoir.SC200.NOT_RECORDED);
         }
         finally
         {
@@ -83,7 +83,6 @@ public class GetSubject implements Model
         String query;
         if (isGetName ()) query = MakeQuery ();
         else query = makeQueryId ();
-        System.out.println (query);
         resultSet = statement.executeQuery (query);
         if (HandlerDb.GetCountSelectedRow (resultSet) > 0 && resultSet.first ())
         {
@@ -103,7 +102,7 @@ public class GetSubject implements Model
 
     private boolean isGetName ()
     {
-        return (id != 0 && name != null);
+        return (name != null);
     }
 
     @bardiademon

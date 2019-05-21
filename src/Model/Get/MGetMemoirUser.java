@@ -13,6 +13,7 @@ import bardiademon.Interface.bardiademon;
 import bardiademon.Interface.IsModel;
 import bardiademon.Other.Log;
 import bardiademon.Other.SQL;
+import bardiademon.Other.Str;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -98,16 +99,25 @@ public class MGetMemoirUser implements Model
         {
             JSONArray jsonArray = new JSONArray ();
             MakeJson makeJson;
+            GetSubject getSubject;
             while (resultSet.next ())
             {
                 makeJson = new MakeJson ();
 
-                makeJson.put (KJRGetMemoirUser.ID , resultSet.getInt (TMemoirList.ID));
-                makeJson.put (KJRGetMemoirUser.NAME , resultSet.getString (TMemoirList.NAME));
-                makeJson.put (KJRGetMemoirUser.SUBJECT , resultSet.getString (TMemoirList.SUBJECT));
-                makeJson.put (KJRGetMemoirUser.CONFIRMATION , (resultSet.getInt (TMemoirList.CONFIRMATION) == TMemoirList.DV.IS_ACCEPT));
-                makeJson.put (KJRGetMemoirUser.LINK , resultSet.getString (TMemoirList.LINK));
-                makeJson.put (KJRGetMemoirUser.OPEN , resultSet.getBoolean (TMemoirList.OPEN));
+                int idSubject = resultSet.getInt (TMemoirList.SUBJECT);
+
+                getSubject = new GetSubject (idSubject);
+                if (getSubject.isFound ())
+                {
+                    makeJson.put (KJRGetMemoirUser.ID , resultSet.getInt (TMemoirList.ID));
+                    makeJson.put (KJRGetMemoirUser.NAME , resultSet.getString (TMemoirList.NAME));
+                    makeJson.put (KJRGetMemoirUser.SUBJECT , Str.EnCoder (getSubject.getName ()));
+                    makeJson.put (KJRGetMemoirUser.DATE , resultSet.getString (TMemoirList.DATE));
+                    makeJson.put (KJRGetMemoirUser.CONFIRMATION , (resultSet.getInt (TMemoirList.CONFIRMATION) == TMemoirList.DV.IS_ACCEPT));
+                    makeJson.put (KJRGetMemoirUser.LINK , resultSet.getString (TMemoirList.LINK));
+                    makeJson.put (KJRGetMemoirUser.OPEN , resultSet.getBoolean (TMemoirList.OPEN));
+                }
+                else continue;
                 try
                 {
                     jsonArray.put (makeJson.getJsonString ());
@@ -135,7 +145,7 @@ public class MGetMemoirUser implements Model
         SQL.Query.Select select = new SQL.Query.Select ();
 
         select.setNameTable (TMemoirList.NT);
-        select.putSelect (TMemoirList.ID , TMemoirList.NAME , TMemoirList.SUBJECT , TMemoirList.CONFIRMATION , TMemoirList.LINK , TMemoirList.OPEN);
+        select.putSelect (TMemoirList.ID , TMemoirList.NAME , TMemoirList.SUBJECT , TMemoirList.DATE , TMemoirList.CONFIRMATION , TMemoirList.LINK , TMemoirList.OPEN);
         select.putWhere (TMemoirList.ID_USER , Request.RequestUser.GetId () , null);
 
         return select.apply ();

@@ -1,7 +1,7 @@
-package Page.PRecord;
+package Page;
 
 import Controller.CPage;
-import Controller.CRecord.CRecordNewMemoir;
+import Controller.CRecordChangeMemoir;
 import Controller.Request;
 import Interface.Page;
 import bardiademon.Interface.bardiademon;
@@ -14,8 +14,8 @@ import javax.servlet.http.HttpServletResponse;
 
 @bardiademon
 @IsPage
-@WebServlet (urlPatterns = "/RecordNewMemoir", name = "record_new_memoir")
-public class PRecordNewMemoir extends HttpServlet implements Page
+@WebServlet (urlPatterns = "/RNMemoir", name = "rc_memoir")
+public class PRecordChangeMemoir extends HttpServlet implements Page
 {
     private static final int PAGE_CODE = 2;
 
@@ -30,6 +30,6 @@ public class PRecordNewMemoir extends HttpServlet implements Page
     @Override
     public void SendToController (boolean IsOkRequest)
     {
-        if (IsOkRequest) new CRecordNewMemoir (Request.RequestUser.GetJsonRequest ());
+        if (IsOkRequest) new CRecordChangeMemoir (Request.RequestUser.GetJsonRequest ());
     }
 }

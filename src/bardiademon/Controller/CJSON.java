@@ -12,6 +12,7 @@ import java.util.Collections;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 
+
 @bardiademon
 public class CJSON implements JustController
 {
@@ -65,7 +66,9 @@ public class CJSON implements JustController
             boolean lenZero = values.len.get (indexRequestInfoJson).equals (0);
             if (lenZero) return (lenJson.equals (0));
 
-            if (defaultValue != null) defaultValue = values.defaultValue.get (indexRequestInfoJson);
+            if (values.defaultValue != null && values.defaultValue.size () > 0)
+                defaultValue = values.defaultValue.get (indexRequestInfoJson);
+
             try
             {
                 Map.Entry <String[], String[]> next = (values.keyValue.get (indexRequestInfoJson)).entrySet ().iterator ().next ();
@@ -190,7 +193,7 @@ public class CJSON implements JustController
 
     private boolean checkValueDefaultValue (int index)
     {
-        return (values.defaultValue != null && (dValue = defaultValue.get (index)) != null);
+        return (defaultValue != null && (dValue = defaultValue.get (index)) != null);
     }
 
     private Object getJson (int index) throws JSONException
@@ -219,28 +222,31 @@ public class CJSON implements JustController
 
         public void putKeyValue (Object[]... keyValue)
         {
-            Map <String[], String[]> tempKeyValue = new LinkedHashMap <> ();
+            Map <String[], String[]> tempKeyValue;
             this.keyValue = new LinkedHashMap <> ();
             int counter = 0;
             for (Object[] KV : keyValue)
             {
                 if (KV != null && KV[INDEX_KEY] instanceof String[] && KV[INDEX_VALUE] instanceof String[])
                 {
+                    tempKeyValue = new LinkedHashMap <> ();
                     tempKeyValue.put ((String[]) KV[INDEX_KEY] , (String[]) KV[INDEX_VALUE]);
                     this.keyValue.put (counter++ , tempKeyValue);
                 }
             }
         }
 
-        public void putDefaultValue (List <Object>... DefaultValue)
+        @SafeVarargs
+        public final void putDefaultValue (List <Object>... DefaultValue)
         {
             this.defaultValue = new LinkedHashMap <> ();
             List <Object> tempDefaultValue = new ArrayList <> ();
             int counter = 0;
             for (List arrayList : DefaultValue)
             {
-                Collections.addAll (tempDefaultValue , arrayList);
-                defaultValue.put (counter++ , tempDefaultValue);
+                if (arrayList == null) arrayList = new ArrayList ();
+                tempDefaultValue.addAll (arrayList);
+                this.defaultValue.put (counter++ , tempDefaultValue);
             }
         }
     }
@@ -296,7 +302,7 @@ public class CJSON implements JustController
     {
         try
         {
-            return (int) valueJson.get (key);
+            return (Integer) valueJson.get (key);
         }
         catch (Exception e)
         {
@@ -309,7 +315,7 @@ public class CJSON implements JustController
     {
         try
         {
-            return (boolean) valueJson.get (key);
+            return (Boolean) valueJson.get (key);
         }
         catch (Exception e)
         {
@@ -348,14 +354,14 @@ public class CJSON implements JustController
     public interface VD
     {
         String
-                IS_OBJECT = "$0$",
-                IS_INT = "$1$",
-                IS_STRING = "$2$",
-                IS_BOOLEAN = "$3$",
-                IS_DOUBLE = "$4$",
-                IS_FLOAT = "$5$",
-                IS_SHORT = "$6$",
-                IS_LONG = "$7$",
-                IS_STRING__EMPTY = "$8$";
+            IS_OBJECT = "obj",
+            IS_INT = "int",
+            IS_STRING = "str",
+            IS_BOOLEAN = "bool",
+            IS_DOUBLE = "db",
+            IS_FLOAT = "flt",
+            IS_SHORT = "shrt",
+            IS_LONG = "lng",
+            IS_STRING__EMPTY = "strempt";
     }
 }

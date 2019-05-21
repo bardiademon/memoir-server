@@ -1,6 +1,7 @@
 package bardiademon.Other;
 
 import Model.Database.HandlerDb;
+import Model.Database.InfoDatabase;
 import bardiademon.Interface.bardiademon;
 import bardiademon.Interface.Model;
 
@@ -25,7 +26,7 @@ public abstract class SQL
             public void putSelect (String... nameRow)
             {
                 checkNew ();
-                if (valueQuery.select == null) valueQuery.select = new ArrayList<> ();
+                if (valueQuery.select == null) valueQuery.select = new ArrayList <> ();
                 for (String row : nameRow)
                     valueQuery.select.add (String.format ("`%s`" , row));
             }
@@ -54,7 +55,7 @@ public abstract class SQL
             public void putWhere (String row , Object value , String AndOr)
             {
                 checkNew ();
-                if (valueQuery.where == null) valueQuery.where = new ArrayList<> ();
+                if (valueQuery.where == null) valueQuery.where = new ArrayList <> ();
 
                 String where = String.format ("`%s` =" , row);
                 if (value instanceof Integer) where += " " + value;
@@ -73,20 +74,22 @@ public abstract class SQL
 
             private class ValueQuery
             {
-                List<String> select;
+                List <String> select;
                 String nameTable;
-                List<String> where;
+                List <String> where;
             }
 
             public String apply ()
             {
-                if (valueQuery == null || valueQuery.nameTable == null || valueQuery.nameTable.equals ("")) return null;
+                if (valueQuery == null || valueQuery.nameTable == null || valueQuery.nameTable.equals (""))
+                    return null;
                 else
                 {
                     query = new StringBuilder ();
 
                     query.append ("SELECT");
-                    if (valueQuery.select == null || valueQuery.select.size () == 0) query.append (" * ");
+                    if (valueQuery.select == null || valueQuery.select.size () == 0)
+                        query.append (" * ");
                     else
                     {
                         query.append (" ");
@@ -118,6 +121,8 @@ public abstract class SQL
         {
             private boolean is;
 
+            private int count;
+
             private Connection connection;
             private Statement statement;
             private ResultSet resultSet;
@@ -125,6 +130,22 @@ public abstract class SQL
             private String nameTable, nameRow;
             private Object value;
             private int type;
+
+            private int id;
+
+            private boolean getId;
+            private String nameRowId = "";
+
+            public void setGetId ()
+            {
+                setGetId (InfoDatabase.PublicRow.ID);
+            }
+
+            public void setGetId (String nameRowId)
+            {
+                this.nameRowId = nameRowId;
+                getId = true;
+            }
 
             @bardiademon
             public boolean is (String NameTable , String NameRow , Object Value)
@@ -141,6 +162,12 @@ public abstract class SQL
                 this.type = Type;
                 RunClass ();
                 return is;
+            }
+
+            @bardiademon
+            public int getCount ()
+            {
+                return count;
             }
 
             @bardiademon
@@ -175,17 +202,20 @@ public abstract class SQL
             {
                 statement = connection.createStatement ();
                 resultSet = statement.executeQuery (MakeQuery ());
-                is = (HandlerDb.GetCountSelectedRow (resultSet) > 0);
+                count = HandlerDb.GetCountSelectedRow (resultSet);
+                is = (count > 0);
+                if (getId && resultSet.first ()) id = resultSet.getInt (nameRowId);
             }
 
             @bardiademon
             @Override
             public String MakeQuery ()
             {
-                String query = "SELECT `%s` FROM `%s` WHERE `%s`=";
-                if (type == Type.TYPE_STR) query += "'%s'";
-                else query += "%s";
-                return String.format (query , nameRow , nameTable , nameRow , String.valueOf (value));
+                Query.Select select = new Query.Select ();
+                select.putSelect (nameRow , ((getId) ? nameRowId : ""));
+                select.setNameTable (nameTable);
+                select.putWhere (nameRow , value , null);
+                return select.apply ();
             }
 
             @bardiademon
@@ -219,6 +249,11 @@ public abstract class SQL
             public static abstract class Type
             {
                 public static final int TYPE_STR = 0, TYPE_OTHER = 1;
+            }
+
+            public int getId ()
+            {
+                return id;
             }
         }
     }

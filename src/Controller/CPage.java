@@ -21,7 +21,6 @@ public abstract class CPage
         public static boolean IsOkRequest (HttpServletRequest Request , HttpServletResponse Response , int PageCode)
         {
             SetReqAndRes (Request , Response , PageCode);
-            Page.Response.GetWriter ().println (Req.GetRequest ().getParameter ("_REQUEST_"));
             if (CheckRequest ()) return true;
             else
             {

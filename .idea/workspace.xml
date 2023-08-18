@@ -7,115 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dbabdd11-c930-4016-80eb-c97ab4bb46ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Controller/CGet/CGetTextMemoir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Model/Get/MGetTextMemoir.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Page/PGet/PGetTextMemoir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/bardiademon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/bardiademon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Archives/log/Log.lg" beforeDir="false" afterPath="$PROJECT_DIR$/Archives/log/Log.lg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CController$User$Ready$IsOkJsonJustId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CController$User$Ready$IsOkJsonJustId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CGet/CGetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CPage$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CPage$User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CRecord/CRecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CSave/CNewComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/CSave/CNewComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Check/CheckInfoLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Check/CheckInfoLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Delete/CDeleteComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Delete/CDeleteComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$PublicKJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR$PublicKJR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser$KJR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request$RequestUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Update/CUpdateVLC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Controller/Update/CUpdateVLC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoirUser$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoirUser$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$GetMemoirUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRGetComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRGetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRGetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRGetMemoirUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRPublic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRPublic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJRSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJR_ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$KJR$KJR_ID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC200.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir$SC400.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel$RecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Interface/ResultModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/CheckId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/CheckId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/GetSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/GetSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/MGetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/Get/MGetMemoirUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Model/MRecord/MRecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/Page/PRecord/PRecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$VD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$VD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON$Value.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Controller/CJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select$ValueQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select$ValueQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query$Select.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Query.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL$Ready.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Memoir_war_exploded/WEB-INF/classes/bardiademon/Other/SQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CController$User$Ready$IsOkJsonJustId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CController$User$Ready$IsOkJsonJustId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CGet/CGetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CPage$User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CPage$User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CRecord/CRecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/CSave/CNewComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/CSave/CNewComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Check/CheckInfoLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Check/CheckInfoLogin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Delete/CDeleteComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Delete/CDeleteComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_GetMemoir$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$KJR_RecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$PublicKJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR$PublicKJR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser$KJR.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request$RequestUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Request.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Controller/Update/CUpdateVLC.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Controller/Update/CUpdateVLC.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoirUser$SC200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoirUser$SC200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$GetMemoirUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRGetComment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRGetComment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRGetMemoir.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRGetMemoir.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRGetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRGetMemoirUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRPublic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRPublic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJRSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJR_ID.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$KJR$KJR_ID.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC200.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir$SC400.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel$RecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Interface/ResultModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/CheckId.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/CheckId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Get/GetSubject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Get/GetSubject.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/Get/MGetMemoirUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/Model/Get/MGetMemoirUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Model/MRecord/MRecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/Page/PRecord/PRecordNewMemoir.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$VD.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$VD.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON$Value.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Controller/CJSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select$ValueQuery.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select$ValueQuery.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query$Select.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Query.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready$CheckValueInSQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL$Ready.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Memoir/bardiademon/Other/SQL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/CRecord/CRecordNewMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/CRecordChangeMemoir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Interface/ResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/ResultModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/CheckId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/CheckId.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Get/GetSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Get/GetSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/Get/MGetMemoirUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Model/MRecord/MRecordNewMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Model/MRecordChangeMemoir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Page/PRecord/PRecordNewMemoir.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Page/PRecordChangeMemoir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bardiademon/Controller/CJSON.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bardiademon/Controller/CJSON.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bardiademon/Other/SQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bardiademon/Other/SQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -228,12 +121,6 @@
       </list>
     </option>
   </component>
-  <component name="JsFlowSettings">
-    <service-enabled>true</service-enabled>
-    <exe-path />
-    <other-services-enabled>true</other-services-enabled>
-    <auto-save>true</auto-save>
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -241,12 +128,20 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": -1
+}]]></component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1940" />
     <option name="height" value="1050" />
   </component>
+  <component name="ProjectId" id="2U9FVBzY08vlPZ4KG3KoZQLaUzq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -286,25 +181,20 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Old/IntelliJ/Download" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.jscs" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.jscs" value="" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Programming\project\java\JavaEE\Memoir\web\WEB-INF\lib" />
@@ -315,18 +205,6 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Programming\project\java\JavaEE\Memoir\Archives" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.14" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
@@ -403,6 +281,7 @@
       </method>
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -450,6 +329,7 @@
       <workItem from="1558343101327" duration="9582000" />
       <workItem from="1558423553277" duration="1324000" />
       <workItem from="1558449371713" duration="834000" />
+      <workItem from="1692343913066" duration="163000" />
     </task>
     <servers />
   </component>
@@ -498,7 +378,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://C:/Program Files/Java/jdk-12.0.1/lib/src.zip!/java.base/java/nio/ByteOrder.java">
